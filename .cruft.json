@@ -1,0 +1,28 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "595147628d3ccc35a24b329484114e830b194558",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Siamak Nakhaie",
+      "email": "siamak.nakhaie@physik.hu-berlin.de",
+      "github_username": "FAIRmat-NFDI",
+      "plugin_name": "nomad-compass",
+      "module_name": "nomad_compass",
+      "short_description": "NOMAD Chatbot",
+      "version": "0.1.0",
+      "license": "MIT",
+      "include_schema_package": false,
+      "include_normalizer": false,
+      "include_parser": false,
+      "include_app": false,
+      "include_example_uploads": false,
+      "_copy_without_render": [
+        "*.html"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+      "_commit": "595147628d3ccc35a24b329484114e830b194558"
+    }
+  },
+  "directory": null
+}
