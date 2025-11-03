@@ -122,10 +122,7 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [project.entry-points.'nomad.plugin']
-
-
-
-
+chatbot_api = "nomad_compass.apis:chatbot_api"
 
 [tool.cruft]
 # Avoid updating workflow files, this leads to permissions issues
