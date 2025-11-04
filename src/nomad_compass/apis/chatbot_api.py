@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 from fastapi import Body, FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from nomad.config import config
 from pydantic import BaseModel
@@ -31,6 +32,14 @@ chatbot_api_entry_point = config.get_plugin_entry_point(
 app = FastAPI(
     root_path=f'{config.services.api_base_path}/{chatbot_api_entry_point.prefix}',
     title='NOMAD Compass — Minimal Local RAG API',
+)
+
+app.add_middleware(  # type: ignore
+    CORSMiddleware,  # type: ignore
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*'],
 )
 
 app.state.vectors = None
