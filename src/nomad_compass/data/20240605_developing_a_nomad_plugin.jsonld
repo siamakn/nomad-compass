@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "df4893f4-eac0-4f42-b84e-07b51d0f530d",
+  "type": "schema:LearningResource",
+  "dct:description": "This tutorial guides you through the complete process of developing a NOMAD plugin using FAIRmat's official template. It covers repository setup with GitHub, generating plugin structure with Cookiecutter and Cruft, creating schema packages in YAML, converting them into Python classes, integrating them into a NOMAD-compatible plugin, and implementing custom normalizers. A practical example based on a sintering process is used to demonstrate schema definition, data parsing, and unit-aware normalization. This tutorial is ideal for researchers and developers aiming to extend NOMAD's data infrastructure with custom processing workflows.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "NOMAD Plugins"
+  ],
+  "dct:title": "Developing a NOMAD Plugin",
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2024-06-05",
+  "educationalLevel": [
+    "Advanced"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://nomad-lab.eu/prod/v1/docs/tutorial/develop_plugin.html",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://nomad-lab.eu/prod/v1/docs/",
+  "keywords": [
+    "Develop Plugin",
+    "Install Plugin",
+    "Write Schema Package"
+  ],
+  "learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

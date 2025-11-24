@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "3f3cede2-99ae-4349-99bf-0fda8a6a4125",
+  "type": "schema:LearningResource",
+  "dct:description": "This is a repository to support learning resources created by FAIRmat Area A such as NOMAD tutorials, users meeting sessions etc.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "ELN",
+    "Oasis Customization",
+    "Oasis Installation",
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "dct:title": "FAIRmat Area A Examples",
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2025-01-14",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "format": [
+    "schema:SoftwareSourceCode"
+  ],
+  "identifier": "https://github.com/FAIRmat-NFDI/AreaA-Examples",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "keywords": [
+    "Base Section",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Data Modeling",
+    "Develop Plugin",
+    "Data processing",
+    "Install Oasis",
+    "Install Plugin",
+    "NOMAD Metainfo",
+    "Parsers",
+    "Tabular Parser",
+    "Tabular Data",
+    "Tabular Parser YAML",
+    "Write Parser",
+    "Write Normalizer",
+    "Write Schema Package"
+  ],
+  "learningResourceType": [
+    "GitRepo"
+  ],
+  "license": []
+}

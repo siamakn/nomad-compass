@@ -1,0 +1,125 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "ccf68078-7c34-4a97-b3be-8023ac9284d2",
+  "type": "schema:LearningResource",
+  "dct:description": "This guide explains how to develop a custom app in NOMAD using the plugin system. Apps enable domain-specific user interfaces in the NOMAD GUI by defining tailored search filters, result displays, and dashboards. Youll learn how to define an AppEntryPoint, configure the app layout using the App class, include schema-defined quantities, create dashboards and menus, and filter displayed entries. This customization is essential for highlighting domain-relevant data and making the NOMAD GUI intuitive for specific communities or workflows.",
+  "instructionalMethod": [
+    "HowTo"
+  ],
+  "subject": [
+    "NOMAD Plugins"
+  ],
+  "dct:title": "How to write an app",
+  "schema:dateCreated": "2025-05-23",
+  "schema:dateModified": "2025-03-21",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://nomad-lab.eu/prod/v1/docs/howto/plugins/apps.html",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://nomad-lab.eu/prod/v1/docs/",
+  "keywords": [
+    "Write App",
+    "Develop Plugin"
+  ],
+  "learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

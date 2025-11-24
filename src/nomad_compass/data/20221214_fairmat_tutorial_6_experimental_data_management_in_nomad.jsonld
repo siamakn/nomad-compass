@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "4b02eb69-1ff8-4b05-a570-045553ebb491",
+  "type": "schema:LearningResource",
+  "dct:description": "We present a hands-on tutorial on how FAIRmat supports the data lifecycle from planning and running an experiment to collecting and annotating data according to international community standards for searchability, and reuse.\n\nFor this purpose, we bring a very simple experiment of a temperature dependent I-V measurement in as an example and let every participant follow us and connect to our central data management services, to view, explore and work with the datasets collected on-the-fly.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "NOMAD CAMELS",
+    "Scientific Use Cases",
+    "NeXus"
+  ],
+  "dct:title": "FAIRmat Tutorial 6: Experimental data management in NOMAD ",
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-12-14",
+  "educationalLevel": [
+    "Beginner"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDU3HeV6byx_kUlU6UXkfhil",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "keywords": [
+    "CAMELS",
+    "NeXus Ontology",
+    "NeXus data modeling"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

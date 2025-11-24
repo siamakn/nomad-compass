@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "e6f056e3-becd-412c-aca5-917db35d1206",
+  "type": "schema:LearningResource",
+  "dct:description": "In this FAIRmat tutorial, we focus on the usage of NOMAD as an ELN which enables the users to generate data following the FAIR principles. We will show how we adopted NOMAD to capture data from synthesis and experiment and make use of an automated data workflow. The key point here is writing a data schema and its implementation in NOMAD. After defining the used terms, we will start explaining this process by writing a simple schema and then go on to more advanced usage of NOMAD, e.g. using the build in csv/xlsx-file parser, automatized data visualization, adding extra functionality by usage of base classes, referencing to other data entries in NOMAD, and searching your ELN data. The tutorial is aimed at both scientists new to NOMAD and structured data as well as data stewards. Each lecture of the tutorial will be followed directly by a Q&A session and a hands-on tutorial.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "ELN"
+  ],
+  "dct:title": "FAIRmat Tutorial 8: Using NOMAD as an Electronic lab notebook (ELN) for FAIR data ",
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2023-04-27",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWJHeIwvmnmy7frNyO6QDX4",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/AreaA-Examples/tree/main/tutorial8",
+  "keywords": [
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "Base Section",
+    "Tabular Parser"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

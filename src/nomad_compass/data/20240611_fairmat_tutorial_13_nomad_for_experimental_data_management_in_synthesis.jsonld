@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "4c396628-a2ac-430f-b07a-da5fba706e05",
+  "type": "schema:LearningResource",
+  "dct:description": "FAIRmat Tutorial 13, presented by FAIRmat Area A Synthesis, introduces NOMAD and NOMAD Oasis as essential tools for research data management (RDM). This tutorial will specifically demonstrate how to utilize these tools for managing experimental materials science data, with a particular focus on synthesis data.\n\nYou will learn about NOMAD's versatile data model, which ensures data interoperability, and its various types and levels of schemas, including custom yaml schemas, community standards, plugins, and base sections. The tutorial will also cover the integration of NOMAD with Electronic Lab Notebooks (ELNs) to enhance data documentation and management.\n\nA practical session will guide users through a typical synthesis data example, demonstrating how to start from NOMAD's built-in schemas, develop a data schema, convert it into a NOMAD plugin for automated data processing, and deploy the schema on a local NOMAD Oasis. This hands-on approach will provide invaluable insights into customizing NOMAD to fit specific experimental workflows.\n\nThe session is designed to serve various user groups, including standard users, data stewards & data scientists, and system administrators, ensuring that each participant gains a comprehensive understanding of the tool's capabilities and applications in their respective roles. Join us to explore how NOMAD can transform your approach to data management in experimental synthesis, leading to more efficient and coherent research outputs - FAIR principles in practice.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "ELN",
+    "Oasis Customization",
+    "Oasis Installation",
+    "NOMAD Plugins"
+  ],
+  "dct:title": "FAIRmat Tutorial 13: NOMAD for Experimental Data Management in Synthesis ",
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2024-06-11",
+  "educationalLevel": [
+    "Intermediate",
+    "Beginner"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVhfYbSU537bxdKI7oIbIT3",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/AreaA-Examples/tree/main/tutorial13",
+  "keywords": [
+    "Introduction",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Base Section",
+    "Develop Plugin",
+    "Install Plugin",
+    "Install Oasis"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

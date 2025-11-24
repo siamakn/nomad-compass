@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "e39d04c7-d492-4386-87fc-dc51ab40c640",
+  "type": "schema:LearningResource",
+  "dct:description": "In this fourth part, Siamak Nakhaie shows how to use NOMAD's Electronic Lab Notebook (ELN) functionality to effectively record experiments. You will learn how to create entries for substances and instruments, record samples along with their processing conditions, and the various measurements that make up your experiments.\n\n🖥️📊 Follow the tutorial on the NOMAD platform:\nhttps://nomad-lab.eu/prod/v1/gui/sear...\n\nChapters:\n00:00:00 Introduction and overview of an example use case documentation\n00:03:27 Using NOMAD's built-in templates for documentation\n00:15:11 Exploring entries in your ELN\n00:18:33 Creating custom ELN templates in NOMAD\n00:28:44 Using the built-in tabular parser to read CSV files\n00:44:35 Integrating the tabular parser with custom ELN templates\n\n🎞️ TUTORIAL PLAYLIST\nThis video is part of FAIRmat Tutorial 16 on using NOMAD to manage materials-science research data.\nWatch the rest of the tutorial at:\n   • FAIRmat Tutorial 16: Getting started ...  \n\n📄 TUTORIAL DOCUMENTATION\nFollow along with the full tutorial guide here:\n🔗 https://fairmat-nfdi.github.io/FAIRma...\n\n📁 DOWNLOAD SLIDES & EXAMPLE FILES\nThe slides presented in this video can be found at this link: \nhttps://events.fairmat-nfdi.eu/event/...\nThe example files used in this video can be found at this link:\nhttps://github.com/FAIRmat-NFDI/FAIRm...\n\n💬 JOIN OUR COMMUNITY ON DISCORD\nHave questions or want to connect with other researchers using NOMAD?\nJoin the NOMAD Discord server and be part of the conversation!\n🔗   / discord  \n\n⚠️ Disclaimer: NOMAD is under continuous development based on input and feedback from the scientific community. Therefore, features, services, or interface may have changed since this video was recorded.\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n\nThis tutorial was held online on February 26, 2025, as part of the FAIRmat Tutorials series.\nEvent page: https://events.fairmat-nfdi.eu/event/34/\nMore information about the FAIRmat tutorial series can be found on our website: https://www.fairmat-nfdi.eu/fairmat/o...",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "ELN"
+  ],
+  "dct:title": "Guiding through the steps for documenting research using NOMAD ELN functionality",
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2025-04-01",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/Q4ruqCOAZ2o?si=ZisEK__EO0MdDD3U",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": [
+    "https://github.com/FAIRmat-NFDI/FAIRmat-tutorial-16/blob/main/tutorial_16_materials/all_slides/Tutorial_16_part_4_slides.pdf",
+    "https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/T16_6/T16_6_document_your_research.html",
+    "https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/T16_7/T16_7_create_custom_eln_templates.html",
+    "https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/T16_8/T16_8_write_a_custom_parser.html"
+  ],
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVxKMHqsksxSRAnQCVq-iPI",
+  "keywords": [
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://opensource.org/licenses/MIT"
+  ]
+}

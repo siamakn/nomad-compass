@@ -1,0 +1,125 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "ecd382c9-edd4-4af2-a714-1f10ed893ef7",
+  "type": "schema:LearningResource",
+  "dct:description": "This guide explains how to extend the NOMAD search functionality by modifying the Elasticsearch index definitions through Metainfo annotations. It covers the underlying architecture of NOMADs search system, including the entry index, materials index, and material entries. The documentation shows how to annotate quantities using the a_elasticsearch extension to enable custom data to be indexed and searchable via both the API and future web interface. The guide also touches on conventions for indexing and extending parser outputs for custom search integration.",
+  "instructionalMethod": [
+    "HowTo"
+  ],
+  "subject": [
+    "Develop NOMAD"
+  ],
+  "dct:title": "How to extend the search",
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2023-12-19",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://nomad-lab.eu/prod/v1/docs/howto/develop/search.html",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://nomad-lab.eu/prod/v1/docs/",
+  "keywords": [
+    "Elasticsearch",
+    "Re-indexing Data"
+  ],
+  "learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "15d3e8e2-5cc1-4628-accb-2a89e69c9408",
+  "type": "schema:LearningResource",
+  "dct:description": "This reference page provides a chronological list of NOMAD and FAIRmat tutorials covering key topics in research data management (RDM), FAIR data principles, electronic lab notebooks (ELNs), plugin development, molecular simulations, and more. Each tutorial includes a title, date, event link, and a short summary of the covered topics, helping users to find hands-on learning resources for using the NOMAD platform effectively.",
+  "instructionalMethod": [
+    "Reference"
+  ],
+  "subject": [
+    "General NOMAD"
+  ],
+  "dct:title": "List of NOMAD tutorials",
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-10-17",
+  "educationalLevel": [
+    "Beginner"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://nomad-lab.eu/prod/v1/docs/reference/tutorials.html",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://nomad-lab.eu/prod/v1/docs/index.html",
+  "keywords": [
+    "Introduction"
+  ],
+  "learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

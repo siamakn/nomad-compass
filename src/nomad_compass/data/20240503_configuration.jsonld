@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "a3d064fa-6df8-4c81-a88f-4c888df6930c",
+  "type": "schema:LearningResource",
+  "dct:description": "This references page explains how to configure NOMAD services using environment variables and YAML files. It covers the configuration hierarchy, how to set and override values, and how to customize the user interface layout with structured settings. Examples demonstrate how to include, exclude, or modify UI elements using minimal changes. A detailed reference of all configurable components, including services, databases, processing, and UI behavior, is provided to support deployment and tailoring of NOMAD instances for different use cases.",
+  "instructionalMethod": [
+    "Reference"
+  ],
+  "subject": [
+    "Oasis Configuration"
+  ],
+  "dct:title": "Configuration",
+  "schema:dateCreated": "2025-06-02",
+  "schema:dateModified": "2024-05-03",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://nomad-lab.eu/prod/v1/docs/reference/config.html",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://nomad-lab.eu/prod/v1/docs/index.html",
+  "keywords": [
+    "Keycloak",
+    "Configure Oasis",
+    "MongoDB",
+    "Elasticsearch",
+    "Docker Compose"
+  ],
+  "learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

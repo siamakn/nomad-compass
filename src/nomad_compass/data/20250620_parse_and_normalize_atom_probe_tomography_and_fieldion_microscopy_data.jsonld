@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "89750cea-122e-4d3d-888b-8d9eddbc59ef",
+  "type": "schema:LearningResource",
+  "dct:description": "pynxtools-apm is a free and open-source data software for creating standardized semantic serializations of atom probe tomography and related field-ion microscopy data and metadata for research data management using NeXus. The software aims at making scientific research data FAIR (findable, accessible, interoperable and reusable).\n\npynxtools-apm, which is a plugin for pynxtools, provides a tool for reading data from various proprietary and open data formats from technology partners of the atom probe community and standardizing it such that it is compliant with the NeXus application definition NXapm.\n\npynxtools-apm is developed both as a standalone reader and as a tool within NOMAD, which is the open-source research data management platform for Materials Science that is developed by the FAIRmat consortium of the German National Research Data Infrastructure (German NFDI).\n\npynxtools-apm solves the challenge that comes with using heterogeneous and semantically ambiguous serialization formats that are commonly used in atom probe research. In addition, the plugin provides an interface for writing readers for different file formats to be mapped to NeXus.\n\npynxtools-apm is useful for scientists from the atom probe community, for technology partners, software developers, and data providers who search for ways to make their data and metadata more completely aligned with the aims of the FAIR principles.",
+  "instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation"
+  ],
+  "subject": [
+    "NeXus",
+    "Scientific Use Cases"
+  ],
+  "dct:title": "Parse and normalize atom probe tomography and field-ion microscopy data",
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-06-20",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://fairmat-nfdi.github.io/pynxtools-apm/",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/pynxtools-apm",
+  "keywords": [
+    "NeXus Ontology",
+    "NeXus Data Converter",
+    "NeXus data modeling",
+    "Atom Probe Tomography (APM)",
+    "pynxtools"
+  ],
+  "learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:license": "https://www.apache.org/licenses/LICENSE-2.0"
+}

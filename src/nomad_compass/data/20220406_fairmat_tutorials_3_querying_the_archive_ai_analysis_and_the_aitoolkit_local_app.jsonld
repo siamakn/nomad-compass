@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "46b11829-969c-4978-b1f6-266767a8af35",
+  "type": "schema:LearningResource",
+  "dct:description": "Luigi Sbailò demonstrates: Querying the Archive, Artificial-Intelligence analysis, and (23:40) introducing the AI-toolkit local app\n\nLink to the notebook discussed in the video:\nhttps://nomad-lab.eu/prod/analytics/p...\n\nMore info on the FAIRmat tutorial series here\n\nwebsite: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nTutorial 3:    • FAIRmat Tutorials 3: Introduction to ...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "API",
+    "AI",
+    "Analyze"
+  ],
+  "dct:title": "FAIRmat Tutorials 3: Querying the Archive, AI analysis, and the AI-toolkit local app",
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-04-06",
+  "educationalLevel": [
+    "Advanced",
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/rMGKO07Wn70?si=FyKCnMC2cyRmJXMI",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWZS2Gacn92Jyl8NA-FY1z2",
+  "keywords": [
+    "AI Toolkit",
+    "NORTH",
+    "Simulation"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

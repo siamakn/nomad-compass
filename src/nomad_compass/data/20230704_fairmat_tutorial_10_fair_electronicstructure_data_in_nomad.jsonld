@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "bc3b196b-1911-4c8b-bd61-8a670b14fb27",
+  "type": "schema:LearningResource",
+  "dct:description": "\n\nThe FAIRmat consortium aims to extend the current NOMAD Lab (meta)data structure to a large variety of materials-science data. Given our strong foundation in computational data, especially DFT, we are now extending our scope. In this tutorial, we will explain the (meta)data structure for ab initio calculations, with an emphasis on precision and on going beyond the accuracy limits of DFT.\n\n\nThis tutorial is suitable for new and experienced researchers who want to learn about the latest features in treating DFT and beyond DFT methodologies. We will give a brief introduction to the NOMAD Lab and the FAIRmat consortium, followed by a guided tutorial where we will:\n\n    Show you how you can upload, publish, and explore ab initio computational data.\n    Show you how to define your own complex workflows, linking between DFT and beyond DFT calculations.\n    Give you examples of the post-processing capabilities of the NOMAD Lab.\n\nFor further information, visit the FAIRmat website: https://www.fairmat-nfdi.eu/events/fairmat-tutorial-10/tutorial-10-home",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "Explore",
+    "Scientific Use Cases"
+  ],
+  "dct:title": "FAIRmat Tutorial 10: FAIR electronic-structure data in NOMAD",
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2023-07-04",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDUsgbVpSBaqsdTI77PYEPPM",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://fairmat-nfdi.github.io/AreaC-Tutorial10_2023/",
+  "keywords": [
+    "Upload Data",
+    "NORTH",
+    "Workflows",
+    "Simulation"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

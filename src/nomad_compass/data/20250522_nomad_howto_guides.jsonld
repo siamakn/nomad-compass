@@ -1,0 +1,161 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "0cf0e34e-b2cc-4baa-9e4e-cb9c00f034cd",
+  "type": "schema:LearningResource",
+  "dct:description": "This page provides categorized how-to guides for using, customizing, and developing the NOMAD platform. It supports a wide range of users � from researchers managing and exploring data via the web interface and APIs, to data stewards and developers configuring NOMAD Oasis or contributing plugins and code. Each guide offers practical, task-oriented instructions, making it easier to work with data, extend functionality, and self-host NOMAD services.",
+  "instructionalMethod": [
+    "HowTo"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ELN",
+    "API",
+    "Oasis Customization",
+    "Oasis Installation",
+    "Oasis Configuration",
+    "NOMAD Plugins",
+    "Develop NOMAD"
+  ],
+  "dct:title": "NOMAD How-to guides",
+  "schema:dateCreated": "2025-05-22",
+  "schema:dateModified": "2024-04-25",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://nomad-lab.eu/prod/v1/docs/howto/overview.html",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://nomad-lab.eu/prod/v1/docs/",
+  "keywords": [
+    "login",
+    "register",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Manage Members",
+    "Supported Files",
+    "Filter Menu",
+    "Widgets",
+    "Dashboard",
+    "NORTH",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "Base Section",
+    "NeXus Data Converter",
+    "Write App",
+    "Write Example Upload",
+    "Write Normalizer",
+    "Configure Oasis",
+    "Install Oasis",
+    "Write Parser",
+    "Write Schema Package",
+    "Develop Plugin",
+    "Install Plugin"
+  ],
+  "learningResourceType": [
+    "NOMADDocumentation"
+  ],
+  "schema:license": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

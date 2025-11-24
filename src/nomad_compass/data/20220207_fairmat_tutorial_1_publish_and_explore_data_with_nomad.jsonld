@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "30de2757-10ad-4230-94dd-82a6a6fc08ef",
+  "type": "schema:LearningResource",
+  "dct:description": "This tutorial is dedicated to FAIR data management of materials science data based on the NOMAD platform.\n\nWe will cover the whole data-life cycle: starting with data on your hard drive, we learn how to prepare, upload, publish data, and reference them with a DOI. Furthermore, we will learn how to explore, download, and use data that were published on NOMAD before. We will perform these steps with NOMAD's graphical user interface and its APIs. This is just one installment in a series of tutorials; other tutorials will cover data analysis, lab notebooks, using NOMAD locally (NOMAD Oasis), workflows, and much more.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ELN",
+    "API"
+  ],
+  "dct:title": "FAIRmat Tutorial 1: Publish and Explore Data with NOMAD",
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-02-07",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDU5Hy3ohE4OH4b3GdH0S3zO",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "keywords": [
+    "login",
+    "register",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Supported Files",
+    "Filter Menu",
+    "Dashboard"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

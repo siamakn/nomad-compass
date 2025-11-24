@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "2c7d18b2-ea57-4da0-ad39-8618b50ce126",
+  "type": "schema:LearningResource",
+  "dct:description": "pynxtools-igor is a free, and open-source data software for converting data stored with Wavemetrics Igor Pro into the NeXus format. It is implemented as a plugin for pynxtools and allows to read, translate, and standardize data from Igor Pro binary waves and packed experiment files. Depending on the domain of data, pynxtools allows to ensure compliance with various NeXus application definitions, e.g. NXmpes for angle-resolved photoemission spectroscopy (ARPES) experiments, or NXxrd for x-ray diffraction experiments.\n\npynxtools-igor is developed both as a standalone reader and as a tool within NOMAD, which is the open-source data management platform for materials science we are developing within FAIRmat.",
+  "instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "subject": [
+    "NeXus",
+    "Scientific Use Cases"
+  ],
+  "dct:title": "Documentation for pynxtools-igor",
+  "schema:dateCreated": "2025-06-20",
+  "schema:dateModified": "2025-05-20",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://fairmat-nfdi.github.io/pynxtools-igor/",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/pynxtools-igor",
+  "keywords": [
+    "NeXus Ontology",
+    "NeXus data modeling",
+    "NeXus Data Converter",
+    "Igor Pro"
+  ],
+  "learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:license": "https://www.apache.org/licenses/LICENSE-2.0"
+}

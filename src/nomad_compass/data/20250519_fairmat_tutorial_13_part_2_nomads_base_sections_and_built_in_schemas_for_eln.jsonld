@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "b672807e-0d64-43b3-a49d-daf263d9afef",
+  "type": "schema:LearningResource",
+  "dct:description": "In this second part of the 12th FAIRmat Tutorial, Andrea Albino and Sarthak Kapoor demonstrate NOMAD's base sections and its built in schemas.\n\nGitHub Repository: https://github.com/FAIRmat-NFDI/AreaA-Examples/tree/main/tutorial13\n\nFor more info on the FAIRmat tutorial series and for access to the hands-on materials, visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 13: NOMAD for Experi...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since the time of the recording of this video. \n\nFor up-to-date information please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n\n\nChapters:\n00:00 Outline\n00:39 Research Data Management\n03:11 Base Classes\n05:29 Schema and Templates\n06:38 Implementing Structured Data\n09:06 Built-in Classes\n10:00 Custom Schema\n11:00 User Defined Plugin\n12:22 Community Plugins\n13:06 Hands-on Tutorial\n45:12 Summary and closing remarks",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "ELN"
+  ],
+  "dct:title": " FAIRmat Tutorial 13 Part 2: NOMAD’s Base Sections and Built in schemas for ELN ",
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2025-05-19",
+  "educationalLevel": [
+    "Beginner"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/e8IRXg9YdVI?si=dRSpOKVg2DHz2id0",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/AreaA-Examples/blob/main/tutorial13/Tutorial13_NOMAD_15-05-24.pdf",
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVhfYbSU537bxdKI7oIbIT3",
+  "keywords": [
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Base Section"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

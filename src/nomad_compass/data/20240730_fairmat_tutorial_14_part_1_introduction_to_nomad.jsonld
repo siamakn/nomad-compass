@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "22dc08ff-53f5-4a7f-b032-02c2c43f6aa5",
+  "type": "schema:LearningResource",
+  "dct:description": "Joseph Rudzinski introduces the NOMAD software and repository in this first part of the 14th FAIRmat Tutorial.\n\nThe GitHub repository contains material used and provided during the tutorial: https://fairmat-nfdi.github.io/fairma...\n\nFor more info on the FAIRmat tutorial series, visit our website: https://www.fairmat-nfdi.eu/fairmat/o...\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 14: Developing schem...  \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since the time of the recording of this video. \n\nFor up-to-date information please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n\n\nChapters:\n00:00:00 Introduction\n00:00:38 What is FAIRmat?\n00:02:44 The NOMAD software\n00:07:13 New NOMAD features\n00:12:11 What is next?\n00:13:58 Tutorial overview",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Explore"
+  ],
+  "dct:title": "FAIRmat Tutorial 14 Part 1: Introduction to NOMAD",
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2024-07-30",
+  "educationalLevel": [
+    "Beginner"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/Al_wY2eqn6g?si=nQxVa7_Y4doUTk1i",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://box.hu-berlin.de/f/285129802164464eb62f/",
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXiHpOKpRN_Phv14Qdqg7lp",
+  "keywords": [
+    "Introduction",
+    "Filter Menu",
+    "Dashboard",
+    "Widgets"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

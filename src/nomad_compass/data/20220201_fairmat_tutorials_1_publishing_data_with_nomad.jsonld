@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "5fad6971-561d-4cf4-a571-217374ca6371",
+  "type": "schema:LearningResource",
+  "dct:description": "This is one part of our first set of tutorials \"Publishing and Exploring Data with NOMAD\" \nand is part of the FAIRmat tutorial series.\n\nExample data:\nhttps://www.dropbox.com/scl/fi/wh812tuoc3615eprp5r0t/tutorial_files.zip?rlkey=yoxz3gtbburodcgqyzivhwoix&e=1&dl=0\n\nThe official NOMAD version:\nhttps://nomad-lab.eu/prod/v1/gui/abou...\n\nThe test installation of NOMAD. You can use our test installation of NOMAD, if you want to publish data and create DOIs. Everything you do here, we will later delete again:\nhttps://nomad-lab.eu/prod/v1/test\n\nThe FAIRmat tutorial: Publishing and Exploring Data with NOMAD homepage:\nhttps://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nExercises:\n\n    Create a NOMAD account. You can use any NOMAD link; they are all connected to the same user management.\n    Upload the example data! Compare the files with the entries that were created.\n    Delete the upload!\n    Upload the example using the command line and curl!\n    Select an entry, look at the raw files, archive, and logs tab!\n    Select a few entries and edit them! You can set comments, references, and co-authors.\n    Use this method to create a dataset!\n    Go to \"Publish/Search your data\" and use the search interface to explore the uploaded data! Do you see your dataset?\n    Publish the upload! Only do this on the test installation.\n    Find the dataset on the datasets page and assign a DOI! Only do this on the test installation.\n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Publish"
+  ],
+  "dct:title": " FAIRmat tutorials 1: Publishing data with NOMAD ",
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-02-01",
+  "educationalLevel": [
+    "Beginner"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/3rVvfYoUbO0?si=bImIw8Yb2fAIS0XT",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDU5Hy3ohE4OH4b3GdH0S3zO",
+  "keywords": [
+    "login",
+    "register",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Manage Members",
+    "Supported Files",
+    "Filter Menu"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

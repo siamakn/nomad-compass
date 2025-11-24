@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "fbd4574f-fe68-4799-b447-c5630d19b0f0",
+  "type": "schema:LearningResource",
+  "dct:description": "Opening the 12th FAIRmat Tutorial, Markus Scheidgen gives a general introduction to NOMAD and NOMAD Oasis.\n\nFor more info on the FAIRmat tutorial series and for access to the hands-on materials, visit our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nWatch the rest of the tutorial here at    • FAIRmat Tutorial 12: Getting Started ...   \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence, the features, services, or interface may have changed since the time of the recording of this video. \n\nFor up-to-date information please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/ \n\nChapters:\n00:00 Introduction\n03:48 NFDI, FAIRmat, and NOMAD\n09:40 NOMAD and NOMAD OASIS\n18:55 NOMAD processing\n21:40 The data model behind NOMAD\n28:51 Data schemas\n40:26 Distributed data infrastructure\n41:23 Summary",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD"
+  ],
+  "dct:title": " FAIRmat Tutorial 12: Introduction to NOMAD and NOMAD OASIS - Insights into technical aspects ",
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2024-03-28",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/mc5kZjeF7KU?si=2Tw-jGQgjzdIiy-J",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://docs.google.com/presentation/d/1GMVpvWiRnjHNO-bODq-U_SHttjpbLL_LCn3uJlGI13k/edit?usp=sharing",
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVuK5OcnPdToza2Ur_ki-It",
+  "keywords": [
+    "Base Section",
+    "Develop Plugin"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

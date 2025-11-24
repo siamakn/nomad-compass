@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "d9277e10-886c-455e-9e92-245ff25f6d84",
+  "type": "schema:LearningResource",
+  "dct:description": "Welcome to the NOMAD Onboarding Workshop! This workshop is designed to introduce you to the NOMAD platform, its functionalities, and practical use cases in research data management for materials science. Below is an overview of the four modules.\nModules Overview¶\n\n    Introduction to Research Data Management with NOMAD\n    Gain insights into research data management principles and how NOMAD supports making data FAIR (Findable, Accessible, Interoperable, and Reusable).\n\n    Exploring Data in NOMAD\n    Learn to navigate and search materials science data using the NOMAD GUI, with an emphasis on understanding and using NOMAD's powerful search features.\n\n    Using NOMAD as an Electronic Lab Notebook (ELN)\n    Discover how to document, manage, and share your experimental and computational data efficiently with NOMAD's ELN capabilities.\n\n    Leveraging NOMAD's API for Advanced Data Management\n    Explore NOMAD's API to retrieve, process, and utilize data programmatically, including applications in machine learning workflows.\n\nEach module provides hands-on exercises and guides to help you understand and effectively utilize NOMAD's features in your research workflow.",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "Analyze",
+    "ELN",
+    "API"
+  ],
+  "dct:title": "NOMAD Onboarding Workshop",
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-02-12",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://fairmat-nfdi.github.io/nomad-onboarding-workshop/",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/nomad-onboarding-workshop",
+  "keywords": [
+    "Create Dataset",
+    "Custom YAML Schema",
+    "Introduction"
+  ],
+  "learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ]
+}

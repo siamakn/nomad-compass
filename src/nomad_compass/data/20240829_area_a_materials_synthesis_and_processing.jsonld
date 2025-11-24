@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "9bc58eef-5a67-4f30-bbba-a473bd353c73",
+  "type": "schema:LearningResource",
+  "dct:description": "About this repo\n\nIt is a collection of example custom schemas shaped on the needs of different users.\n\nThe schemas here implemented adapt to the NOMAD data structure: the hierarchy is composed by instances of Sections, Subsections and Quantities (data fields).\n\nThe users can follow the info in this repo to build their own schema for their experiment 👍.\n\nFurther explanations on NOMAD are availbale in the official documentation page\n\nEach folder contains several kind of files, the user can try to drag and drop all of them in the upload page in Nomad, they will be automatically parsed to create \"Entries\" containing the experimental data in a structured fashion:\n\n    schema file: it is a NOMAD archive file (.archive.yaml extension) containing only one section called \"definitions\". It defines the structure that will host your data. Sections, subsections and quantities are the elements that compose the hierarchical structure of data.\n    test datasets: depending on the experiment, the user will have one or more files where the logged parameters and metadata are stored. The data set files have .png, .tif, .txt., .dat, .csv or .xlsx extension.\n\nSome folders contain Python packages that are referred as PLUGINS.\n\nCheck the README in each subdirectory for more info.\nBasesections Hierarchy\n\nThe tree visualizations represent the inheritance structure of our data model. This structure is in continuous development and may quickly change from week to week.\n\nFor suggestions and contributes please refer to the issues opened in this repo.\n\nSee the NOMAD source code contains the set of base sections developed so far. Few more repo are used to collect general classes shared among different use cases: nomad-measurements, nomad-material-processing.\n\nWe are developing a more verbose documentation to describe the basesections contained in each of the examples in this repo.",
+  "instructionalMethod": [
+    "HowTo"
+  ],
+  "subject": [
+    "ELN",
+    "Oasis Customization",
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "dct:title": "Area A: materials synthesis and processing",
+  "schema:dateCreated": "2025-06-12",
+  "schema:dateModified": "2024-08-29",
+  "educationalLevel": [
+    "Intermediate",
+    "Advanced"
+  ],
+  "format": [
+    "schema:SoftwareSourceCode"
+  ],
+  "identifier": "https://github.com/FAIRmat-NFDI/AreaA-data_modeling_and_schemas",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://fairmat-nfdi.github.io/AreaA-Documentation/",
+  "keywords": [
+    "Data Modeling",
+    "Data processing",
+    "Custom YAML Schema",
+    "Base Section"
+  ],
+  "learningResourceType": [
+    "GitRepo"
+  ],
+  "license": []
+}

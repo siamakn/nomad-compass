@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "87350363-67a3-42fa-9058-b68f02e30809",
+  "type": "schema:LearningResource",
+  "dct:description": "n this tutorial, you'll learn how to use NOMAD to manage and organize your materials-science research data. Whether you are working with computational or experimental data, NOMAD's graphical user interface makes it easy to upload, share, explore, and analyze your data.\nThis hands-on tutorial will focus on using NOMAD to improve collaboration in your research projects and to ensure that your data adheres to the FAIR data principles (Findable, Accessible, Interoperable, and Reusable).\n\nThis tutorial was held online on February 26, 2025, as part of the FAIRmat Tutorials series.\nEvent page: https://events.fairmat-nfdi.eu/event/34/\n \n📄 TUTORIAL DOCUMENTATION\nFollow along with the full tutorial guide here:\n🔗 https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/\n\n📁 DOWNLOAD SLIDES & EXAMPLE FILES\nGrab all the slides and example files used in the tutorial:\n🔗 https://github.com/FAIRmat-NFDI/FAIRmat-tutorial-16/raw/refs/heads/main/tutorial_16_materials.zip\n\n💬 JOIN OUR COMMUNITY ON DISCORD\nHave questions or want to connect with other researchers using NOMAD?\nJoin the NOMAD Discord server and be part of the conversation!\n🔗 https://discord.gg/Gyzx3ukUw8\n\n⚠️ Disclaimer: NOMAD is under continuous development based on input and feedback from the scientific community. Therefore, features, services, or interface may have changed since this video was recorded.\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Publish",
+    "Explore",
+    "ELN"
+  ],
+  "dct:title": "FAIRmat Tutorial 16: Getting started with NOMAD for materials-science research data management",
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2025-04-01",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVxKMHqsksxSRAnQCVq-iPI",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://fairmat-nfdi.github.io/FAIRmat-tutorial-16/index.html",
+  "keywords": [
+    "login",
+    "Introduction",
+    "Upload Data",
+    "Create Dataset",
+    "Get DOI",
+    "Manage Members",
+    "Supported Files",
+    "Filter Menu",
+    "Widgets",
+    "Dashboard",
+    "Built-in Schema",
+    "Custom YAML Schema",
+    "Tabular Parser YAML",
+    "NeXus Data Converter"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "license": []
+}

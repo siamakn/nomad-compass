@@ -13,10 +13,14 @@ import httpx
 import numpy as np
 from fastapi import HTTPException
 
+BASE_DIR = Path(__file__).resolve().parent
+
 OLLAMA_BASE_URL = os.getenv('OLLAMA_BASE_URL', 'http://172.28.105.142:11434')
 DEFAULT_EMBED_MODEL = os.getenv('EMBED_MODEL', 'nomic-embed-text')
 DEFAULT_CHAT_MODEL = os.getenv('CHAT_MODEL', 'gpt-oss:20b')
-DEFAULT_RDF_ZIP = 'https://codeload.github.com/siamakn/rdf/zip/refs/heads/main'
+# By default, use a local "data" directory next to the "apis" package
+# instead of downloading from GitHub.
+DEFAULT_RDF_ZIP = os.getenv('RDF_SOURCE', str(BASE_DIR.parent / 'data'))
 
 HTTP_OK = 200
 
@@ -40,6 +44,7 @@ DESC_KEYS = [
     'dc:description',
     'dct:description',
 ]
+
 
 SYSTEM_PROMPT = '\n'.join(
     [
@@ -315,7 +320,7 @@ async def download_extract_rdf(zip_url: str, tmp_dir: Path) -> Path:
     ) as client:
         r = await client.get(zip_url)
         if r.status_code != HTTP_OK:
-            detail = (
+            detail =(
                 f'Failed to fetch ZIP ({r.status_code} {r.reason_phrase}). '
                 f'URL={zip_url}'
             )

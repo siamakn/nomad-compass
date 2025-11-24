@@ -1,0 +1,135 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "0c014422-e077-4387-8c07-9f035a76f8f5",
+  "type": "schema:LearningResource",
+  "dct:description": "NOMAD is an open-source, community-driven data infrastructure, focusing on materials science data. Originally built as a repository for data from DFT calculations, the NOMAD software can automatically extract data from the output of a large variety of simulation codes. Our previous computation-focused tutorials (CECAM workshop, Tutorial 10, and Tutorial 7) have highlighted the extension of NOMAD’s functionalities to support advanced many-body calculations, classical molecular dynamics simulations, and complex simulation workflows.\n\nBut how can you utilize this infrastructure and associated suite of tools if your simulation code or method is not yet supported? This tutorial will provide foundational knowledge for customizing NOMAD to fit the specific needs of your computational research project. The following provides an outline of the major topics that will be covered:\n\n    Introduction to the NOMAD software and repository\n    Working with the NOMAD-Simulations schema plugin\n    Extending NOMAD-Simulations to support custom methods and outputs\n    Creating parser plugins from scratch\n    Extra: Interfacing complex simulation and analysis workflows with NOMAD\n\nJoin us on our Discord Channel for Tutorial 14! Use this chat to contact us before the tutorial, ask questions and discuss during the tutorial, and stay in touch with us beyond the tutorial.\n",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "NOMAD Plugins",
+    "Oasis Customization"
+  ],
+  "dct:title": "FAIRmat Tutorial 14: Developing schemas and parsers for FAIR computational data storage using NOMAD-Simulations",
+  "schema:dateCreated": "2025-05-19",
+  "schema:dateModified": "2024-07-30",
+  "educationalLevel": [
+    "Intermediate",
+    "Beginner",
+    "Advanced"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDXiHpOKpRN_Phv14Qdqg7lp",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://fairmat-nfdi.github.io/fairmat-tutorial-14-computational-plugins/",
+  "keywords": [
+    "Introduction",
+    "Write Normalizer",
+    "Write Parser",
+    "Write Schema Package",
+    "Develop Plugin",
+    "Install Plugin",
+    "Simulation",
+    "Workflows"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

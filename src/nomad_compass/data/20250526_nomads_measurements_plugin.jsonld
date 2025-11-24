@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "fb62e058-c7a7-4901-b768-b152cbdecd7f",
+  "type": "schema:LearningResource",
+  "dct:description": "Welcome to the official documentation for the NOMAD-measurements Plugin! This plugin is designed to provide structured data schemas for storing experimental measurement data in alignment with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. It serves as a community or standard plugin, offering commonly used schemas and classes/sections for measurement data that can be shared across a community.\nSupported Measurement Techniques¶\n\nCurrently, this plugin supports the following measurement techniques:\n\n    X-ray Diffraction (XRD): Supports 1D line scans and 2D Reciprocal Space Mapping (RSM) scans. Supports automatic parsing of data for the following file formats (read more here):\n    Panalytical: *.xrdml\n    Bruker: *.brml\n\n    Rigaku: *.rasx\n\n    UV-Vis-NIR Transmission: Supports automatic parsing of data for the following file formats (read more here):\n\n    Perkin Elmers: *.asc\n\n    Physical Properies Measurement System (PPMS): Supports automatic parsing of measurement files and sequence files from the Quantum Design PPMS. For now, ETO, ACT, ACMS, MPMS, and Resistivity modes are supported. Supported file formats:\n    QuantumDesign PPMS: *.dat and *.seq\n\nAdditional measurement techniques are actively being developed and will be included soon, including:\n\n    Raman Spectroscopy\n    X-ray Fluorescence (XRF)\n\nStay tuned for updates as more methods become available!",
+  "instructionalMethod": [
+    "Tutorial",
+    "HowTo",
+    "Explanation",
+    "Reference"
+  ],
+  "subject": [
+    "Oasis Customization",
+    "NOMAD Plugins",
+    "Scientific Use Cases"
+  ],
+  "dct:title": "NOMAD's Measurements Plugin",
+  "schema:dateCreated": "2025-06-19",
+  "schema:dateModified": "2025-05-26",
+  "educationalLevel": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
+  "format": [
+    "schema:TechArticle"
+  ],
+  "identifier": "https://fairmat-nfdi.github.io/nomad-measurements/",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/nomad-measurements",
+  "keywords": [
+    "XRD",
+    "UV-Vis-NIR Transmission",
+    "Physical Properies Measurement System (PPMS)",
+    "Raman Spectroscopy",
+    "Data processing",
+    "Supported Files"
+  ],
+  "learningResourceType": [
+    "SelfLearning"
+  ],
+  "schema:license": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ]
+}

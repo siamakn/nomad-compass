@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "8edb7102-05f4-4eda-9757-7e54c8e78cc8",
+  "type": "schema:LearningResource",
+  "dct:description": "The FAIRmat Tutorial 15 will address the necessity of FAIR research data management when working with experimental data in materials science. FAIRmat provides NOMAD (https://nomad-lab.eu/nomad-lab/) to the scientific community as a platform specifically developed for this purpose. \n\nNOMAD integrates the NeXus Ontology based on the NeXus community standard (https://www.nexusformat.org/). The NeXus standard has been significantly expanded over the years and now includes a comprehensive range of metadata definitions, making it applicable to various experimental techniques used in materials science. \n\nFAIRmat, in collaboration with the scientific community and technology partners, has developed pynxtools. These software tools simplify the conversion of experimental data and metadata according to the community standard, making it easy to integrate experimental data into NOMAD. \n\nThis tutorial will cover using the pynxtools and how such datasets are managed within NOMAD. To demonstrate the functionality of pynxtools in combination with NOMAD, we will use ellipsometry and Raman spectroscopy data as examples.\n\nThe main topics to be covered are: \n•    FAIR research data management \n•    NeXus data modelling \n•    Data conversion and verification using pynxtools\n•    Data management with NOMAD \n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "NeXus"
+  ],
+  "dct:title": "FAIRmat Tutorial 15: Use of pynxtools with Examples from Optical Spectroscopy ",
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2024-11-19",
+  "educationalLevel": [
+    "Intermediate"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDWascr_J2W54SmNE6wrLxR5",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "keywords": [
+    "Supported Files",
+    "NORTH",
+    "NeXus Data Converter",
+    "NeXus data modeling",
+    "NeXus Ontology",
+    "pynxtools"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

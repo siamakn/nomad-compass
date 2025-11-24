@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "578ce375-ceb3-4fd2-b6df-550e70963092",
+  "type": "schema:LearningResource",
+  "dct:description": "In this first part, Adrianna Wojas gives an introduction to the NOMAD public service and its main functionalities.\n\n🖥️📊 Follow the tutorial on the NOMAD platform:\nhttps://nomad-lab.eu/prod/v1/gui/sear...\n\nChapters:\n00:00:00 Tutorial overview\n00:02:42 Introduction to NOMAD and support channels\n00:06:00 NOMAD core functionalities\n00:07:25 Live demonstration of NOMAD’s graphical user interface and features\n00:18:52 Summary\n\n🎞️ TUTORIAL PLAYLIST\nThis video is part of FAIRmat Tutorial 16 on using NOMAD to manage materials-science research data.\nWatch the rest of the tutorial at:\n   • FAIRmat Tutorial 16: Getting started ...  \n\n📄 TUTORIAL DOCUMENTATION\nFollow along with the full tutorial guide here:\n🔗 https://fairmat-nfdi.github.io/FAIRma...\n\n📁 DOWNLOAD SLIDES \nThe slides presented in this video can be found at this link: \nhttps://events.fairmat-nfdi.eu/event/...\n\n💬 JOIN OUR COMMUNITY ON DISCORD\nHave questions or want to connect with other researchers using NOMAD?\nJoin the NOMAD Discord server and be part of the conversation!\n🔗   / discord  \n\n⚠️ Disclaimer: NOMAD is under continuous development based on input and feedback from the scientific community. Therefore, features, services, or interface may have changed since this video was recorded.\nFor up-to-date information, please consult our latest tutorials and the NOMAD documentation: https://nomad-lab.eu/prod/v1/docs/\n\nThis tutorial was held online on February 26, 2025, as part of the FAIRmat Tutorials series.\nEvent page: https://events.fairmat-nfdi.eu/event/34/\nMore information about the FAIRmat tutorial series can be found on our website: https://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "General NOMAD",
+    "Explore"
+  ],
+  "dct:title": "Introduction to NOMAD public service and its main functionalities",
+  "schema:dateCreated": "2025-05-15",
+  "schema:dateModified": "2025-04-01",
+  "educationalLevel": [
+    "Beginner"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://youtu.be/xqtUZBt6_co?si=D4k7d6Llbh0fpnL1",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isFormatOf": "https://github.com/FAIRmat-NFDI/FAIRmat-tutorial-16/commit/66fbd936523544d59a97ccc6d8a3e1e649451749",
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDVxKMHqsksxSRAnQCVq-iPI",
+  "keywords": [
+    "Introduction",
+    "Filter Menu"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}

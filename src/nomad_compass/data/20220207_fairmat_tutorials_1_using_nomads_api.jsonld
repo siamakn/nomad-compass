@@ -1,0 +1,124 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "id": "@id",
+    "type": "@type",
+    "title": "schema:name",
+    "description": "schema:description",
+    "subject": {
+      "@id": "dct:subject",
+      "@container": "@set"
+    },
+    "keywords": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "identifier": "schema:identifier",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "license": {
+      "@id": "schema:license",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "schema:encodingFormat",
+      "@container": "@set"
+    },
+    "learningResourceType": {
+      "@id": "schema:learningResourceType",
+      "@container": "@set"
+    },
+    "educationalLevel": {
+      "@id": "schema:educationalLevel",
+      "@container": "@set"
+    },
+    "instructionalMethod": {
+      "@id": "dct:instructionalMethod",
+      "@container": "@set"
+    },
+    "dateCreated": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:date"
+    },
+    "dateModified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:date"
+    },
+    "isPartOf": {
+      "@id": "dct:isPartOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasPart": {
+      "@id": "dct:hasPart",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isFormatOf": {
+      "@id": "dct:isFormatOf",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasFormat": {
+      "@id": "dct:hasFormat",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "replaces": {
+      "@id": "dct:replaces",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "isReferencedBy": {
+      "@id": "dct:isReferencedBy",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "references": {
+      "@id": "dct:references",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "language": "schema:inLanguage"
+  },
+  "id": "fc731bdb-6ae0-4a1a-8872-c6b2887ace16",
+  "type": "schema:LearningResource",
+  "dct:description": "This is one part of our first set of tutorials \"Publishing and Exploring Data with NOMAD\"\nand is part of the FAIRmat tutorial series.\n\nThe official NOMAD version used in this video:\nhttps://nomad-lab.eu/prod/v1\n\nThe NOMAD documentation:\nhttps://nomad-lab.eu/prod/v1/docs\n\nThe FAIRmat tutorial: Publishing and Exploring Data with NOMAD homepage:\nhttps://www.fairmat-nfdi.eu/fairmat/outreach-fairmat/tutorials-fairmat\n\nThe tutorial video on \"Exploring data with NOMAD\":\n   • FAIRmat tutorials 1: Exploring data w...  \n\nExercises:\n\n    Use the GET /entry/entry_id directly in your browser!\n    Use the POST /entry/entry_id/archive/query endpoint in the dashboard!\n    Modify archive required query based on what you learned from the \"Processed data\" tab\n\nin the web-based search interface!\n\n    Use the POST /entry/query endpoint to execute a search, explore different queries with the help\n\nof the search interface in the web-based interface!\n\n    Authenticate in the API dashboard and perform a search with owner=user to see you own data! If you used the NOMAD test installation for uploading data, the base-url of the API (and dashboard) would be https://nomad-lab.eu/prod/v1/test/api.\n    Write a small python script to access the API with requests!\n    Install the NOMAD Python package and use it to access the Archive: https://nomad-lab.eu/prod/v1/docs/pyt....\n\n\nDisclaimer: NOMAD is being continuously developed based on input and feedback from the scientific community. Hence the features, services or interface may have changed since the time of recording of this video. For up-to-date information please consult our latest tutorials and the NOMAD documentation https://nomad-lab.eu/prod/v1/docs/",
+  "instructionalMethod": [
+    "Tutorial"
+  ],
+  "subject": [
+    "API"
+  ],
+  "dct:title": " FAIRmat tutorials 1: Using NOMAD's API ",
+  "schema:dateCreated": "2025-05-21",
+  "schema:dateModified": "2022-02-07",
+  "educationalLevel": [
+    "Advanced"
+  ],
+  "format": [
+    "schema:VideoObject"
+  ],
+  "identifier": "https://www.youtube.com/watch?v=G1frBCrxC0g&list=PLrRaxjvn6FDU5Hy3ohE4OH4b3GdH0S3zO&index=4",
+  "language": "en",
+  "schema:isBasedOn": [],
+  "schema:isPartOf": "https://www.youtube.com/playlist?list=PLrRaxjvn6FDU5Hy3ohE4OH4b3GdH0S3zO",
+  "keywords": [
+    "Introduction"
+  ],
+  "learningResourceType": [
+    "FAIRmatTutorial"
+  ],
+  "schema:license": "https://creativecommons.org/licenses/by/4.0/"
+}
